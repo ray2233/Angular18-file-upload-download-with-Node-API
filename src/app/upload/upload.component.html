@@ -1,0 +1,14 @@
+<h2>File Upload</h2>
+
+<input type="file" (change)="onFileSelected($event)" />
+<button (click)="uploadFile()">Upload</button>
+
+<h3>Uploaded Files</h3>
+<ul>
+    <li *ngFor="let file of files">
+        <img *ngIf="isImage(file)" [src]="getImageUrl(file)" alt="{{ file }}" width="150" />
+        <p>{{ file }}</p>
+        <button (click)="downloadFile(file)">Download</button>
+        <button (click)="deleteFile(file)">Delete</button>
+    </li>
+</ul>

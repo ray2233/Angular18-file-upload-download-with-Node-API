@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { UploadComponent } from './upload/upload.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [UploadComponent],
+  template: `<app-upload></app-upload>`
 })
-export class AppComponent {
-  title = 'file-upload-app';
-}
+export class AppComponent {}
