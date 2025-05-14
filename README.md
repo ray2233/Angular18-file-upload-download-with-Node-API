@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FileUploadApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
@@ -25,3 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Angular18-file-upload-download-with-Node-API
+
+open a new terminal and run: node server.js to run the server file
+ng serve to run the Angular application
+>>>>>>> b47e2d3cad35d0a51a5fdccbee9b949f4541f5f6
+# Angular18-file-upload-download-with-Node-API
